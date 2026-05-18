@@ -1,6 +1,6 @@
-# 🎬 Netflix Content Analysis (Power BI Project)
+# Netflix Content Analysis (Power BI Project)
 
-## 📊 Overview
+## Overview
 
 Netflix Content Analysis is an interactive Power BI project built using a dataset of **16,000+ Netflix movies (up to 2025)**. The goal of this project is to explore and analyze key patterns in Netflix content, including **genres, ratings, popularity, revenue, budget, and global distribution**.
 
@@ -8,7 +8,7 @@ This project helps uncover insights into how Netflix content is distributed acro
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Power BI  
 - Power Query  
@@ -17,11 +17,11 @@ This project helps uncover insights into how Netflix content is distributed acro
 
 ---
 
-## 📂 Dataset Structure
+## Dataset Structure
 
 The dataset contains multi-value fields that were normalized for better analysis and performance.
 
-### 🔹 Main Tables
+### Main Tables
 
 - `netflix_movies_details_upto_2025` – Core movie details  
 - `movies_genre` – Mapping of movies and genres  
@@ -30,7 +30,7 @@ The dataset contains multi-value fields that were normalized for better analysis
 
 ---
 
-## 🔗 Data Modeling
+## Data Modeling
 
 To improve performance and avoid duplication issues, multi-value columns such as **Genres, Countries, and Cast** were split into separate mapping tables.
 
@@ -41,9 +41,9 @@ To improve performance and avoid duplication issues, multi-value columns such as
 
 ---
 
-## 📈 Dashboards
+## Dashboards
 
-### 1. 🎭 Content & Genre Analysis
+### 1. Content & Genre Analysis
 - Movies by Genre  
 - Average Rating by Genre  
 - Release Year Trends  
@@ -51,7 +51,7 @@ To improve performance and avoid duplication issues, multi-value columns such as
 
 ---
 
-### 2. 🎥 Movie Performance Analysis
+### 2. Movie Performance Analysis
 - Budget vs Revenue Comparison  
 - ROI (Return on Investment) Analysis  
 - Top Revenue Movies  
@@ -59,14 +59,14 @@ To improve performance and avoid duplication issues, multi-value columns such as
 
 ---
 
-### 3. 🌍 Global Movie Distribution
+### 3. Global Movie Distribution
 - Country-wise movie distribution (Map Visualization)  
 - Movie count by country  
 - Release year trends by region  
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Data cleaning and transformation using Power Query  
 - Handling multi-value columns using normalization  
@@ -77,7 +77,7 @@ To improve performance and avoid duplication issues, multi-value columns such as
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project provides meaningful insights into Netflix’s content strategy, including trends in genres, global reach, and financial performance. It demonstrates how data visualization and modeling can transform raw movie data into actionable business insights.
 
